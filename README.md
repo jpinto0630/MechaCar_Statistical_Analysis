@@ -24,11 +24,11 @@ SS 1
 
 SS 2
 
--The design specification is met for all lots in total, as seen in the screenshot above the variance does not exceed 100. 
+- The design specification is met for all lots in total, as seen in the screenshot above the variance does not exceed 100. 
 
 SS 3
 
--The desing specification is not met for all 3 lots individually. As demonstrated in the screenshot above, lot 3 has a variance greater than what is specified in the design specifications. 
+- The desing specification is not met for all 3 lots individually. As demonstrated in the screenshot above, lot 3 has a variance greater than what is specified in the design specifications. 
 
 
 ## T-Tests on Suspension Coils
@@ -44,6 +44,8 @@ Accross all lots the p value is above the common 0.05% signifance level, which m
 
 ## Study Design: MechaCar vs Competition
 
+Depending on the market sector MechaCar is attempting to target, different metrics could be measured to quanitfy the companies performance in the market. In general I believe most consumers are more concerned about price points and ongoing operating/maintenace costs. Considering this, aside from initial price point, the most impactful metric to measure would be MPG ratings for MechaCar Vehicles. 
 
+A two sample t-test could be conducted that compares MechaCar vehicles with their industry counterparts. If the null hypoteshsis is that MecharCar vehicles are statistically similar to their competitors, then our alternative hypotehsis would be that they are not (and hopefully demonstrate that they have better MPG). 
 
 
